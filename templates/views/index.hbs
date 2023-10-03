@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather</title>
+        <link rel="icon" href="https://www.creativefabrica.com/wp-content/uploads/2021/03/31/weather-icon-illustration03-Graphics-10205167-1.jpg">
+        <link rel="stylesheet" href="./css/styles.css"/>
+    </head>
+    <body>
+        <div class="main-content"> 
+            {{>header}}
+            <p>Use this site to get your weather!</p>
+            <form>
+                <input placeholder=" Enter Location....."/>
+                <button>Search</button>
+            </form>
+            <p class="p1"></p>
+            <p class="p2"></p>
+        </div>
+        {{>footer}}
+        <script src="./js/app.js"></script>
+    </body>
+
+</html>
